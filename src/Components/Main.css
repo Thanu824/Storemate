@@ -1,0 +1,51 @@
+.container{
+    
+    display: flex;
+    position: relative;
+    bottom: 0px;
+    background-color: white;
+    Height:100px;
+}
+.leftbox{
+    flex:7;
+    padding: 6px;
+    background-color:rgb(231, 227, 227);
+ }
+ 
+ .left{
+     
+     
+     display: flex;
+     justify-content:space-between;
+     align-items: baseline;
+     padding:6px;
+ }
+ .rightb{
+    display: flex;
+    justify-content:space-between;
+    flex:5;
+    padding:6px;
+    
+}
+
+.price{
+    
+    flex: 6;
+    
+}
+
+.price1{
+    flex: 6;
+    background-color: blue;
+    border-radius: 6px;
+    
+}
+img{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content:center;
+    flex:5;
+    padding:6px;
+    
+}
